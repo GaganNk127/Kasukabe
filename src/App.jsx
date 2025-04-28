@@ -15,10 +15,21 @@ import RollingGallery from './components/RollingGallery.jsx'
 import gagan from './assets/images/Gagan.jpg'
 import asiya from './assets/images/asiya.jpg'
 import GradientText from './components/GradientText.jsx'
-
+import FlyingPosters from './components/FlyingPosters.jsx'
+import img3 from './assets/images/img3.jpg';
+import img4 from './assets/images/img4.jpg';
+import img5 from './assets/images/img1.jpg';
+import img6 from './assets/images/img1.jpg';
+import img7 from './assets/images/img1.jpg';
+import img8 from './assets/images/img8.jpg';
+import img9 from './assets/images/img9.jpg';
+import img10 from './assets/images/img10.jpg';
 function App() {
   const [count, setCount] = useState(0);
-
+  const items = [
+    img3,img4,img5,img6,img7,img8,img9,img10
+  ];
+  
   return (
     <>
       <ScrollVelocity
@@ -208,6 +219,14 @@ function App() {
         <RollingGallery autoplay={true} pauseOnHover={true} />
 
 
+      </div>
+      <div>
+      <div style={{ height: '600px', position: 'relative' }}>
+  <FlyingPosters items={items}/>
+</div>
+<div className='mt-5 justify-center font-semibold'>
+  <h6>Built with love by Gagan</h6>
+</div>
       </div>
     </>
   );

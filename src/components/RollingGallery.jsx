@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 // import img1 from '../assets/images/img1.JPG';
 // import img2 from '../assets/images/img2.JPG';
-import img5 from '../assets/images/img1.jpg';
-import img6 from '../assets/images/img1.jpg';
-import img7 from '../assets/images/img1.jpg';
+import img5 from '../assets/images/img5.jpg';
+import img6 from '../assets/images/img5.jpg';
+import img7 from '../assets/images/img7.jpg';
 import img8 from '../assets/images/img8.jpg';
 import img9 from '../assets/images/img9.jpg';
 import img10 from '../assets/images/img10.jpg';
